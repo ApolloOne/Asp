@@ -1,0 +1,7 @@
+Y:\Project Visual Studio\BaiTapLon\BaiTapLon\bin\BaiTapLon.dll.config
+Y:\Project Visual Studio\BaiTapLon\BaiTapLon\bin\BaiTapLon.dll
+Y:\Project Visual Studio\BaiTapLon\BaiTapLon\bin\BaiTapLon.pdb
+Y:\Project Visual Studio\BaiTapLon\BaiTapLon\obj\Debug\BaiTapLon.csprojResolveAssemblyReference.cache
+Y:\Project Visual Studio\BaiTapLon\BaiTapLon\obj\Debug\BaiTapLon.csproj.CoreCompileInputs.cache
+Y:\Project Visual Studio\BaiTapLon\BaiTapLon\obj\Debug\BaiTapLon.dll
+Y:\Project Visual Studio\BaiTapLon\BaiTapLon\obj\Debug\BaiTapLon.pdb

@@ -1,0 +1,36 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-header {
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.left {
+    float: left;
+    padding: 5px 0;
+}
+
+.right {
+    float: right;
+    padding: 5px 0;
+    height:100%;
+}
+
+.list-menu {
+    padding: 0;
+    list-style-type: none;
+}
+
+    .list-menu li {
+        height: 40px;
+        color: #23527C;
+        font-size: 20px;
+        background: #E7E7E7;
+        padding: 5px 10px;
+        border-bottom: 1px solid #CCCCCC;
+    }

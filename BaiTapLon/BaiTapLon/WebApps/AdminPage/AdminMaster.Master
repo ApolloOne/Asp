@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="BaiTapLon.WebApps.AdminPage.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Page Admin</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../../bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../CSS/AdminPage/styles.css" rel="stylesheet" />
+    <link href="../../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header" style="width:100%">
+                    <asp:Label ID="lblAdmin" runat="server" Text="Admin" CssClass="left"></asp:Label>
+                    <asp:Label ID="lblExit" runat="server" Text="Sign-out" CssClass="right"></asp:Label>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="margin-top:50px">
+            <div class="row">
+                <div class="col-md-3 col-sm-4">
+                    <ul class="list-menu">
+                        <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>  Quản Lý User</a></li>
+                        <li><a href="#"><i class="fa fa-cubes" aria-hidden="true"></i>  Quản Lý Sản Phẩm</a></li>
+                        <li><a href="#"><i class="fa fa-bar-chart" aria-hidden="true"></i> Thống kê thu nhập</a></li>
+                    </ul>
+                </div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿@import 'Variable.scss';
+
+@media (max-width:992px){
+    .group-search,.txt-user,.icon-user{
+        display:none;
+    }
+    .icon-left,.icon-right{
+        display:block;
+    }
+    .header {
+         a {
+            display: block;
+            text-align: center;
+            width: 30%;
+            margin: auto;
+        }
+    }
+    .slider{
+        background-color:#fff;
+    }
+    .bg__nav-bar{
+        display:none;
+    }
+    .slider{
+        margin-top:80px;
+    }
+    .big-sales{
+        .fixed-padding{
+            &:nth-of-type(n+3){
+                margin-top:20px;
+            }
+        }
+    }
+    .col-xs-12{
+        >a{
+            margin-bottom:20px !important;
+        }
+    }
+    .col-xs-6{
+        >a{
+            margin-bottom:0;
+        }
+    }
+}
