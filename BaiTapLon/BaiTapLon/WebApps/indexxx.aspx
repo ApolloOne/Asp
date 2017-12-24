@@ -9,8 +9,8 @@
                         <h3><i class="fa fa-bars" aria-hidden="true"></i>Tất cả Danh Mục</h3>
                         <ul class="menu__nav-bar">
                             <li><a href="travel.aspx">Du Lịch</a></li>
-                            <li><a href="#">Thời Trang</a></li>
-                            <li><a href="#">Ẩm Thực</a></li>
+                            <li><a href="Fashion.aspx">Thời Trang</a></li>
+                            <li><a href="Food.aspx">Ẩm Thực</a></li>
                             <li><a href="#">Trang Sức</a></li>
                             <li><a href="#">Hoa Tươi</a></li>
                             <li><a href="#">Hoa Tươi</a></li>

@@ -60,7 +60,7 @@
                    <div class="icon-left">
                        <i class="fa fa-bars" aria-hidden="true"></i>
                    </div>
-                   <a href="Asp.aspx"><img src="../Images/logo.png" /></a>
+                   <a href="indexxx.aspx"><img src="../Images/logo.png" /></a>
                    <div class="icon-right">
                        <div class="responsive__parent-search">
                            <i class="fa fa-search icon-search" aria-hidden="true" ></i>
@@ -106,13 +106,13 @@
                    <h4 class="responsive_sign-in">Đăng Nhập</h4>
                    <h4 class="responsive_sign-up">Đăng Ký</h4>
                </li>
-               <li><a href="#">
+               <li><a href="Travel.aspx">
                    <img src="../Images/icon__responsive2.png" /> Du Lịch</a></li>
-               <li><a href="#">
+               <li><a href="Fashion.aspx">
                    <img src="../Images/icon__responsive4.png" />Thời Trang</a></li>
-               <li><a href="#">
+               <li><a href="Food.aspx">
                    <img src="../Images/icon__responsive1.png" />Ẩm Thực</a></li>
-               <li><a href="#">
+               <li><a href="Jewelry.aspx">
                    <img src="../Images/icon__responsive3.png" />Trang Sức</a></li>
                <li><a href="#">
                    <img src="../Images/icon__responsive5.png" />Hoa Tươi</a></li>

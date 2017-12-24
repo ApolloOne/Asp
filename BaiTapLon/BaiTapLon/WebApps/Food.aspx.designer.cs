@@ -10,7 +10,7 @@
 namespace BaiTapLon.WebApps {
     
     
-    public partial class Travel {
+    public partial class Food {
         
         /// <summary>
         /// View control.
