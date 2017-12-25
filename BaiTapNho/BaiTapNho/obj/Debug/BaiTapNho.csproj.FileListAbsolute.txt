@@ -1,0 +1,9 @@
+Y:\Project Visual Studio\BaiTapNho\BaiTapNho\bin\BaiTapNho.dll.config
+Y:\Project Visual Studio\BaiTapNho\BaiTapNho\bin\BaiTapNho.dll
+Y:\Project Visual Studio\BaiTapNho\BaiTapNho\bin\BaiTapNho.pdb
+Y:\Project Visual Studio\BaiTapNho\BaiTapNho\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Y:\Project Visual Studio\BaiTapNho\BaiTapNho\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Y:\Project Visual Studio\BaiTapNho\BaiTapNho\obj\Debug\BaiTapNho.csprojResolveAssemblyReference.cache
+Y:\Project Visual Studio\BaiTapNho\BaiTapNho\obj\Debug\BaiTapNho.csproj.CoreCompileInputs.cache
+Y:\Project Visual Studio\BaiTapNho\BaiTapNho\obj\Debug\BaiTapNho.dll
+Y:\Project Visual Studio\BaiTapNho\BaiTapNho\obj\Debug\BaiTapNho.pdb
