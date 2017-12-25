@@ -107,6 +107,9 @@
     <Content Include="font-awesome-4.7.0\scss\_screen-reader.scss" />
     <Content Include="font-awesome-4.7.0\scss\_stacked.scss" />
     <Content Include="font-awesome-4.7.0\scss\_variables.scss" />
+    <Content Include="HoSoDoAn.aspx" />
+    <Content Include="HoSoGiangVien.aspx" />
+    <Content Include="HoSoSinhVien.aspx" />
     <Content Include="images\user.jpg" />
     <Content Include="MasterPage.Master" />
     <Content Include="Bootstrap-3.3.7\bootstrap-3.3.7\css\bootstrap-theme.css.map" />
@@ -141,6 +144,27 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HoSoDoAn.aspx.cs">
+      <DependentUpon>HoSoDoAn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HoSoDoAn.aspx.designer.cs">
+      <DependentUpon>HoSoDoAn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HoSoGiangVien.aspx.cs">
+      <DependentUpon>HoSoGiangVien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HoSoGiangVien.aspx.designer.cs">
+      <DependentUpon>HoSoGiangVien.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HoSoSinhVien.aspx.cs">
+      <DependentUpon>HoSoSinhVien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HoSoSinhVien.aspx.designer.cs">
+      <DependentUpon>HoSoSinhVien.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
