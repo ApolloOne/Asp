@@ -34,7 +34,7 @@ namespace BaiTapNho
 
             string query1 = "select count(Diem) from tbl_Doan where Diem<'7';";
             sqlcm = new SqlCommand(query1,sql_con);
-            label1.Text = "Điểm Đồ Án <= 7.0 --------"+sqlcm.ExecuteScalar().ToString()+" Đồ Án";
+            Label1.Text = "Điểm Đồ Án <= 7.0 --------"+sqlcm.ExecuteScalar().ToString()+" Đồ Án";
             string query2 = "select count(Diem) from tbl_Doan where Diem between'7' and '8';";
             sqlcm = new SqlCommand(query2,sql_con);
             Label2.Text="Điểm Đồ Án Từ 7.1 Đến 8.0---------"+sqlcm.ExecuteScalar().ToString()+" Đồ Án";

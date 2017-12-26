@@ -1,0 +1,23 @@
+﻿.bg-1{
+    background-color:antiquewhite
+}
+.bg-2{
+    background-color:aquamarine;
+}
+.bg-3{
+    background-color:burlywood;
+}
+.bg-4{
+    background-color:coral;
+}
+.btn-toggle{
+    float:right;
+}
+.table__toggle1, .table__toggle2, .table__toggle3, .table__toggle4 {
+    z-index: 999;
+    margin-top: 10px;
+    display: none;
+}
+.w3-quarter{
+    margin-bottom:20px;
+}

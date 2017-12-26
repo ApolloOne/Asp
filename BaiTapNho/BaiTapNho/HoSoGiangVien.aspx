@@ -3,12 +3,13 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <div class="w3-main" style="margin-left:300px;margin-top:43px;">
+         <div class="container-fluid">
          <h1>Hồ Sơ Giảng Viên trong Cơ Sở Dữ Liệu</h1>
-         <asp:TextBox ID="txtSearch" runat="server"></asp:TextBox>
+         <asp:TextBox ID="txtSearch" runat="server" style="height:34px;border:none;border-radius:10px;padding-right:20px;margin-right:20px;"></asp:TextBox>
          <asp:Button ID="btnSearch" Text="Tìm Kiếm" runat="server" cssClass="btn btn-success"/>
          <br />
          <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:connect_DB %>" SelectCommand="SELECT * FROM [btl_GiangVien] ORDER BY [TenGV]"></asp:SqlDataSource>
-         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" CssClass="table" DataKeyNames="MaGV" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
+         <asp:GridView ID="GridView1" style="margin-top:30px;" runat="server" AutoGenerateColumns="False" CellPadding="4" CssClass="table" DataKeyNames="MaGV" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None">
              <AlternatingRowStyle BackColor="White" />
              <Columns>
                  <asp:BoundField DataField="MaGV" HeaderText="MaGV" ReadOnly="True" SortExpression="MaGV" />
@@ -31,7 +32,8 @@
              <SortedDescendingCellStyle BackColor="#E9EBEF" />
              <SortedDescendingHeaderStyle BackColor="#4870BE" />
          </asp:GridView>
-         <asp:Button ID="btnCreate" runat="server" CssClass="btn btn-primary" Text="Thêm Mới" />
+            <asp:Button ID="btnCreate" runat="server" CssClass="btn btn-primary" Text="Thêm Mới" />
          <br />
+        </div>
      </div>
 </asp:Content>

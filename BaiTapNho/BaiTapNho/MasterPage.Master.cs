@@ -11,7 +11,7 @@ namespace BaiTapNho
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //user12.Text = Session["user"].ToString();
         }
     }
 }

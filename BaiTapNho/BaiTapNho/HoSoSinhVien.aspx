@@ -2,17 +2,18 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-  <div class="w3-main" style="margin-left:300px;margin-top:43px;">
+    <div class="w3-main" style="margin-left:300px;margin-top:43px;">
+      <div class="container-fluid">
     <h1>Hồ Sơ Sinh Viên trong Cơ Sở Dữ Liệu</h1>
-    <asp:TextBox ID="TxtSearch" runat="server" Height="29px"></asp:TextBox>
-    <asp:Button ID="btnSearch" Text="Tìm Kiếm" runat="server" cssClass="btn btn-success" OnClick="btnSearch_Click"/>
+    <asp:TextBox ID="TxtSearch" runat="server" style="height:34px;border:none;border-radius:10px;padding-right:20px;margin-right:20px;"></asp:TextBox>
+    <asp:Button ID="btnSearch" Text="Tìm Kiếm" runat="server" style="margin-right:20px;" cssClass="btn btn-success" OnClick="btnSearch_Click"/>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:connect_DB %>" SelectCommand="SELECT [TenKhoa] FROM [tbl_khoahoc]"></asp:SqlDataSource>
-    <asp:DropDownList ID="Filter_Khoa" runat="server" DataSourceID="SqlDataSource1" DataTextField="TenKhoa" DataValueField="TenKhoa" Width="161px"></asp:DropDownList>
+    <asp:DropDownList ID="Filter_Khoa" runat="server" style="height:34px;border:none;border-radius:10px;padding-right:20px;margin-right:20px;" DataSourceID="SqlDataSource1" DataTextField="TenKhoa" DataValueField="TenKhoa" Width="161px"></asp:DropDownList>
     <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:connect_DB %>" SelectCommand="SELECT [TenCN] FROM [tbl_ChuyenNganh]"></asp:SqlDataSource>
-    <asp:DropDownList ID="Filter_ChuyenNganh" runat="server" DataSourceID="SqlDataSource2" DataTextField="TenCN" DataValueField="TenCN"></asp:DropDownList>
+    <asp:DropDownList ID="Filter_ChuyenNganh" runat="server" style="height:34px;border:none;border-radius:10px;padding-right:20px;margin-right:20px;" DataSourceID="SqlDataSource2" DataTextField="TenCN" DataValueField="TenCN"></asp:DropDownList>
       <br />
       <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:connect_DB %>" SelectCommand="SELECT * FROM [btl_SinhVien] ORDER BY [TenSV]"></asp:SqlDataSource>
-      <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" CssClass="table" DataKeyNames="MaSV" DataSourceID="SqlDataSource3" ForeColor="#333333" GridLines="None">
+      <asp:GridView ID="GridView1" runat="server" style="margin-top:20px;" AutoGenerateColumns="False" CellPadding="4" CssClass="table" DataKeyNames="MaSV" DataSourceID="SqlDataSource3" ForeColor="#333333" GridLines="None">
           <AlternatingRowStyle BackColor="White" />
           <Columns>
               <asp:BoundField DataField="MaSV" HeaderText="MaSV" ReadOnly="True" SortExpression="MaSV" />
@@ -37,5 +38,6 @@
           <SortedDescendingCellStyle BackColor="#E9EBEF" />
           <SortedDescendingHeaderStyle BackColor="#4870BE" />
       </asp:GridView>
+    </div>
   </div>
 </asp:Content>
