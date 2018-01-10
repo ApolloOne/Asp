@@ -69,10 +69,10 @@
     <Content Include="bootstrap-3.3.7\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="CSS\AdminPage\styles.css" />
     <Content Include="CSS\AdminPage\style_admin.css" />
-    <Content Include="CSS\Detail_Product\Detail_Products.css" />
+    <Content Include="CSS\Detail_Product\Detail_Productss.css" />
     <Content Include="CSS\Responsives1.css" />
     <Content Include="CSS\slider.min.css" />
-    <Content Include="CSS\style.css" />
+    <Content Include="CSS\styles.css" />
     <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
     <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
     <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
@@ -112,6 +112,7 @@
     <Content Include="CSS\style.scss" />
     <Content Include="CSS\Variable.scss" />
     <Content Include="CSS\Responsives1.scss" />
+    <Content Include="Global.asax" />
     <Content Include="Images\Fashion\fashion1.jpg" />
     <Content Include="Images\Fashion\fashion10.jpg" />
     <Content Include="Images\Fashion\fashion11.jpg" />
@@ -128,57 +129,56 @@
     <Content Include="Images\Fashion\fashion9.jpg" />
     <Content Include="Images\Fashion\slider1.jpg" />
     <Content Include="Images\Fashion\slider2.jpg" />
-    <Content Include="Images\Food\food1.jpg" />
-    <Content Include="Images\Food\food10.jpg" />
-    <Content Include="Images\Food\food11.jpg" />
-    <Content Include="Images\Food\food12.jpg" />
-    <Content Include="Images\Food\food13.jpg" />
-    <Content Include="Images\Food\food2.jpg" />
-    <Content Include="Images\Food\food3.jpg" />
-    <Content Include="Images\Food\food4.jpg" />
-    <Content Include="Images\Food\food5.jpg" />
-    <Content Include="Images\Food\food6.jpg" />
-    <Content Include="Images\Food\food7.jpg" />
-    <Content Include="Images\Food\food8.jpg" />
-    <Content Include="Images\Food\food9.jpg" />
-    <Content Include="Images\Food\slider1.jpg" />
-    <Content Include="Images\Jewelry\jewelry1.jpg" />
-    <Content Include="Images\Jewelry\jewelry10.JPG" />
-    <Content Include="Images\Jewelry\jewelry11.jpg" />
-    <Content Include="Images\Jewelry\jewelry12.jpg" />
-    <Content Include="Images\Jewelry\jewelry13.jpg" />
-    <Content Include="Images\Jewelry\jewelry14.jpg" />
-    <Content Include="Images\Jewelry\jewelry2.jpg" />
-    <Content Include="Images\Jewelry\jewelry3.jpg" />
-    <Content Include="Images\Jewelry\jewelry4.jpg" />
-    <Content Include="Images\Jewelry\jewelry5.jpg" />
-    <Content Include="Images\Jewelry\jewelry6.jpg" />
-    <Content Include="Images\Jewelry\jewelry7.jpg" />
-    <Content Include="Images\Jewelry\jewelry8.jpg" />
-    <Content Include="Images\Jewelry\jewelry9.jpg" />
-    <Content Include="Images\Travel\banner.jpg" />
-    <Content Include="Images\Travel\banner2.png" />
-    <Content Include="Images\Travel\slider1.jpg" />
-    <Content Include="Images\Travel\slider2.jpg" />
-    <Content Include="Images\Travel\slider3.jpg" />
-    <Content Include="Images\Travel\slider4.jpg" />
-    <Content Include="Images\Travel\slider5.jpg" />
-    <Content Include="Images\Travel\travel1.jpg" />
-    <Content Include="Images\Travel\travel2.jpg" />
-    <Content Include="Images\Travel\travel3.jpg" />
-    <Content Include="Images\Travel\travel4.jpg" />
-    <Content Include="Images\Travel\travel5.jpg" />
-    <Content Include="Images\Travel\travel6.jpg" />
-    <Content Include="Images\Travel\travel7.jpg" />
-    <Content Include="Images\Travel\travel8.jpg" />
+    <Content Include="Images\fashion_1.jpg" />
+    <Content Include="Images\fashion_2.jpg" />
+    <Content Include="Images\fashion_3.jpg" />
+    <Content Include="Images\fashion_4.jpg" />
+    <Content Include="Images\fashion_5.jpg" />
+    <Content Include="Images\first_ads.png" />
+    <Content Include="Images\footer_1.png" />
+    <Content Include="Images\footer_2.png" />
+    <Content Include="Images\footer_3.png" />
+    <Content Include="Images\hangmoive1.jpg" />
+    <Content Include="Images\hangmoive10.jpg" />
+    <Content Include="Images\hangmoive11.jpg" />
+    <Content Include="Images\hangmoive12.jpg" />
+    <Content Include="Images\hangmoive13.jpg" />
+    <Content Include="Images\hangmoive14.jpg" />
+    <Content Include="Images\hangmoive2.jpg" />
+    <Content Include="Images\hangmoive3.jpg" />
+    <Content Include="Images\hangmoive4.jpg" />
+    <Content Include="Images\hangmoive5.jpg" />
+    <Content Include="Images\hangmoive6.jpg" />
+    <Content Include="Images\hangmoive7.jpg" />
+    <Content Include="Images\hangmoive8.jpg" />
+    <Content Include="Images\hangmoive9.jpg" />
+    <Content Include="Images\icon__responsive1.png" />
+    <Content Include="Images\icon__responsive2.png" />
+    <Content Include="Images\icon__responsive3.png" />
+    <Content Include="Images\icon__responsive4.png" />
+    <Content Include="Images\icon__responsive5.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\sale_1.jpg" />
+    <Content Include="Images\sale_2.jpg" />
+    <Content Include="Images\sale_3.jpg" />
+    <Content Include="Images\sale_4.jpg" />
+    <Content Include="Images\sale_5.jpg" />
+    <Content Include="Images\sale_6.png" />
+    <Content Include="Images\sale_7.jpg" />
+    <Content Include="Images\shock_3.PNG" />
+    <Content Include="Images\slider_1.png" />
+    <Content Include="Images\slider_2.jpg" />
+    <Content Include="Images\slider_3.jpg" />
+    <Content Include="Images\slider_4.png" />
+    <Content Include="WebApps\AdminPage\DetailMoney.aspx" />
+    <Content Include="WebApps\AdminPage\DetailProduct.aspx" />
+    <Content Include="WebApps\AdminPage\DetailUser.aspx" />
     <Content Include="WebApps\AdminPage\home.aspx" />
     <Content Include="WebApps\AdminPage\Login.aspx" />
     <Content Include="WebApps\Fashion.aspx" />
-    <Content Include="WebApps\Food.aspx" />
     <Content Include="WebApps\indexxx.aspx" />
-    <Content Include="WebApps\Jewelry.aspx" />
+    <Content Include="WebApps\KhuyenMaiHapDan.aspx" />
     <Content Include="WebApps\Product_detail.aspx" />
-    <Content Include="WebApps\Travel.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -202,42 +202,6 @@
     <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
     <Content Include="font-awesome-4.7.0\HELP-US-OUT.txt" />
     <Content Include="fonts\Roboto-Regular.svg" />
-    <Content Include="Images\fashion_1.jpg" />
-    <Content Include="Images\fashion_2.jpg" />
-    <Content Include="Images\fashion_3.jpg" />
-    <Content Include="Images\fashion_4.jpg" />
-    <Content Include="Images\fashion_5.jpg" />
-    <Content Include="Images\food_1.jpg" />
-    <Content Include="Images\food_2.jpg" />
-    <Content Include="Images\food_3.jpg" />
-    <Content Include="Images\food_4.jpg" />
-    <Content Include="Images\food_5.jpg" />
-    <Content Include="Images\footer_1.png" />
-    <Content Include="Images\footer_2.png" />
-    <Content Include="Images\footer_3.png" />
-    <Content Include="Images\icon__responsive1.png" />
-    <Content Include="Images\icon__responsive2.png" />
-    <Content Include="Images\icon__responsive3.png" />
-    <Content Include="Images\icon__responsive4.png" />
-    <Content Include="Images\icon__responsive5.png" />
-    <Content Include="Images\logo.png" />
-    <Content Include="Images\sale_1.jpg" />
-    <Content Include="Images\sale_2.jpg" />
-    <Content Include="Images\sale_3.jpg" />
-    <Content Include="Images\sale_4.jpg" />
-    <Content Include="Images\sale_5.jpg" />
-    <Content Include="Images\sale_6.png" />
-    <Content Include="Images\sale_7.jpg" />
-    <Content Include="Images\shock_1.PNG" />
-    <Content Include="Images\shock_2.PNG" />
-    <Content Include="Images\shock_3.PNG" />
-    <Content Include="Images\slider1.jpg" />
-    <Content Include="Images\slider2.jpg" />
-    <Content Include="Images\slider3.jpg" />
-    <Content Include="Images\slider4.jpg" />
-    <Content Include="Images\travel_1.jpg" />
-    <Content Include="Images\travel_2.jpg" />
-    <Content Include="Images\travel_3.jpg" />
     <Content Include="JS\bootbox.min.js" />
     <Content Include="JS\Common1.js" />
     <Content Include="JS\jquery-3.2.1.min.js" />
@@ -246,6 +210,11 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Connect_DB.cs" />
+    <Compile Include="Classes\DoDuLieu.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebApps\AdminPage\AdminMaster.Master.cs">
       <DependentUpon>AdminMaster.Master</DependentUpon>
@@ -253,6 +222,27 @@
     </Compile>
     <Compile Include="WebApps\AdminPage\AdminMaster.Master.designer.cs">
       <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebApps\AdminPage\DetailMoney.aspx.cs">
+      <DependentUpon>DetailMoney.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebApps\AdminPage\DetailMoney.aspx.designer.cs">
+      <DependentUpon>DetailMoney.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebApps\AdminPage\DetailProduct.aspx.cs">
+      <DependentUpon>DetailProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebApps\AdminPage\DetailProduct.aspx.designer.cs">
+      <DependentUpon>DetailProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebApps\AdminPage\DetailUser.aspx.cs">
+      <DependentUpon>DetailUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebApps\AdminPage\DetailUser.aspx.designer.cs">
+      <DependentUpon>DetailUser.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebApps\AdminPage\home.aspx.cs">
       <DependentUpon>home.aspx</DependentUpon>
@@ -275,13 +265,6 @@
     <Compile Include="WebApps\Fashion.aspx.designer.cs">
       <DependentUpon>Fashion.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebApps\Food.aspx.cs">
-      <DependentUpon>Food.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebApps\Food.aspx.designer.cs">
-      <DependentUpon>Food.aspx</DependentUpon>
-    </Compile>
     <Compile Include="WebApps\Header__Footer.Master.cs">
       <DependentUpon>Header__Footer.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -296,12 +279,12 @@
     <Compile Include="WebApps\indexxx.aspx.designer.cs">
       <DependentUpon>indexxx.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebApps\Jewelry.aspx.cs">
-      <DependentUpon>Jewelry.aspx</DependentUpon>
+    <Compile Include="WebApps\KhuyenMaiHapDan.aspx.cs">
+      <DependentUpon>KhuyenMaiHapDan.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebApps\Jewelry.aspx.designer.cs">
-      <DependentUpon>Jewelry.aspx</DependentUpon>
+    <Compile Include="WebApps\KhuyenMaiHapDan.aspx.designer.cs">
+      <DependentUpon>KhuyenMaiHapDan.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebApps\Product_detail.aspx.cs">
       <DependentUpon>Product_detail.aspx</DependentUpon>
@@ -309,13 +292,6 @@
     </Compile>
     <Compile Include="WebApps\Product_detail.aspx.designer.cs">
       <DependentUpon>Product_detail.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebApps\Travel.aspx.cs">
-      <DependentUpon>Travel.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebApps\Travel.aspx.designer.cs">
-      <DependentUpon>Travel.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />

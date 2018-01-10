@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using System.Web.Configuration;
 using System.Data.SqlClient;
 using System.Data;
+using BaiTapLon.Classes;
 namespace BaiTapLon.WebApps
 {
     public partial class Fashion : System.Web.UI.Page
@@ -14,13 +15,10 @@ namespace BaiTapLon.WebApps
         
         protected void Page_Load(object sender, EventArgs e)
         {
-            SqlCommand sqlFashion;
-            string st_connect = WebConfigurationManager.ConnectionStrings["connect_DB"].ToString();
-            SqlConnection sql_con = new SqlConnection(st_connect);
-            sql_con.Open();
-            string query = @"select Name,Price,status 
-                             from ThoiTrang;";
-            sqlFashion = new SqlCommand(query, sql_con);
+            Connect_DB cls_con = new Connect_DB();
+            cls_con.Open();
+             string query = "select Name,Price,status  from ThoiTrang;";
+            SqlCommand sqlFashion = new SqlCommand(query, cls_con.sql_con);
             SqlDataReader result = sqlFashion.ExecuteReader();
             string st = "";
             int i = 0;

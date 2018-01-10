@@ -14,6 +14,7 @@ namespace BaiTapLon.WebApps.AdminPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+           
         }
 
         protected void submit_Click(object sender, EventArgs e)
@@ -24,12 +25,13 @@ namespace BaiTapLon.WebApps.AdminPage
             SqlConnection sql_con = new SqlConnection(st_connect);
             // Mở Kết Nối
             sql_con.Open();
-            string st_query = "select username,password from admin ;";
+            string st_query = "select username,password,name from admin ;";
             SqlCommand sqlcm = new SqlCommand(st_query,sql_con);
             // SqlCommand Cần 2 Tham số truyền vào Câu lệnh query và SqlConnection
             SqlDataReader Result = sqlcm.ExecuteReader();
             while (Result.Read()){
                 if (txtUser.Text == Result.GetValue(0).ToString() && txtPw.Text == Result.GetValue(1).ToString()) {
+                    Session["UserAdmin"] = Result.GetValue(2).ToString();
                     Response.Redirect("home.aspx");
                 }
             }

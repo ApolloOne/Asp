@@ -11,7 +11,7 @@ namespace BaiTapLon.WebApps.AdminPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            lblAdmin.Text = "Xin Chào,"+Session["UserAdmin"].ToString();
         }
     }
 }

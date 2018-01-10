@@ -244,6 +244,32 @@ body {
     height: 450px;
     background-color: #FFCD1D;
 }
+.icon__status{
+    position:absolute;
+    right:0;
+    bottom:0;
+    color:gray;
+    font-size:12px;
+    border:1px solid #fff;
+    padding:3px;
+    cursor:context-menu;
+}
+.icon__name{
+    position:absolute;
+    z-index:2;
+    color:#000;
+    font-size:16px;
+    text-transform:uppercase;
+    top:45%;
+    left:25%;
+    padding:5px;
+    background-color:rgba(0,0,0,0.16);
+}
+.icon__name:hover{
+    border:1px solid #fff;
+    transition:1s;
+    box-sizing:border-box;
+}
                     /* ------------------NOTE:End Nav-bar and Slider----------------- */
 
                     /* ------------------NOTE:Product Safe ---------------------------*/
@@ -284,6 +310,21 @@ body {
     }
 
     @include icon_product;
+}
+.icon-sale {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #D72529;
+    z-index: 2;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    color: #fff;
+    cursor:context-menu;
 }
                 /* ------------------NOTE:End Product Safe ---------------------------*/
 
